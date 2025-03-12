@@ -47,7 +47,7 @@ elif choice == "Login":
             st.session_state['logged_in'] = True
             st.success("🎉 Logged in successfully! Redirecting...")
             time.sleep(2)  # Small delay for UX
-            st.switch_page("pages/app.py")
+            st.switch_page("app.py")
            
         else:
             st.error("⚠️ Invalid email or password.")
