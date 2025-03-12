@@ -1,8 +1,8 @@
 import streamlit as st
 import requests
-import pages.home as home  
-import pages.form as form  
-import pages.about as about  
+import home as home  
+import form as form  
+import about as about  
 
 # Set Page Title and Layout
 st.set_page_config(page_title="Track Your Care Cost", layout="wide")
